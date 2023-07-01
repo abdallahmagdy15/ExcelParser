@@ -1,26 +1,26 @@
-#Excel Parser Library
+# Excel Parser Library
 The Excel Parser library is a .NET library that provides functionality to import Excel data into domain models. It allows you to easily parse Excel files and map the data to your domain model objects.
 
-##Features
--Import Excel data into domain models
--Support for parent-child relationships
--Automatic data type conversion for common data types (string, char, int, decimal)
--Error handling and reporting for data conversion issues
+## Features
+- Import Excel data into domain models
+- Support for parent-child relationships
+- Automatic data type conversion for common data types (string, char, int, decimal)
+- Error handling and reporting for data conversion issues
 
-##Installation
+## Installation
 You can install the Excel Parser library using NuGet. Run the following command in the NuGet Package Manager Console:
 
 Install-Package ExcelParser
 
-##Usage
+## Usage
 To use the Excel Parser library in your project, follow these steps:
 
-1-Install the Excel Parser library using NuGet (see Installation section).
-2-Add a reference to the Excel Parser library in your project.
-3-Import the ExcelParser.Models and OfficeOpenXml namespaces in your code.
-4-Create an instance of the ExcelParser class.
-5-Call the ImportExcelToDomainModelList method, providing the path to the Excel file and an output parameter for the updated file path.
-6-Check the returned DomainModelResultList<T> object for errors and imported domain models.
+1- Install the Excel Parser library using NuGet (see Installation section).
+2- Add a reference to the Excel Parser library in your project.
+3- Import the ExcelParser.Models and OfficeOpenXml namespaces in your code.
+4- Create an instance of the ExcelParser class.
+5- Call the ImportExcelToDomainModelList method, providing the path to the Excel file and an output parameter for the updated file path.
+6- Check the returned DomainModelResultList<T> object for errors and imported domain models.
 
 Example:
 
@@ -82,12 +82,12 @@ namespace YourNamespace
 }
 
 
-##License
+## License
 The Excel Parser library is licensed under the MIT License.
 
-##Contributions
+## Contributions
 Contributions to the Excel Parser library are welcome! If you find any issues or have suggestions for improvements, please create an issue or submit a pull request on GitHub.
 
-##Support
+## Support
 If you need any assistance or have any questions regarding the Excel Parser library, feel free to contact the library maintainer or create an issue on GitHub.
 
