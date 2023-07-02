@@ -1,5 +1,5 @@
 # Excel Parser Library
-The Excel Parser library is a .NET library that provides functionality to import Excel data into domain models. It allows you to easily parse Excel files and map the data to your domain model objects.
+The Excel Parser library is a .NET library that provides functionality to import Excel data into domain models and export data of domain models into excel file. It allows you to easily parse Excel files and map the data to your domain model objects and parse data of domain models into excel file to be downloaded.
 
 ## Features
 - Import Excel data into domain models
