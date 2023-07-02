@@ -9,22 +9,22 @@ The Excel Parser library is a .NET library that provides functionality to import
 
 ## Installation
 You can install the Excel Parser library using NuGet. Run the following command in the NuGet Package Manager Console:
-
+```
 Install-Package ExcelParser
-
+```
 ## Usage
 To use the Excel Parser library in your project, follow these steps:
 
-1- Install the Excel Parser library using NuGet (see Installation section).
-2- Add a reference to the Excel Parser library in your project.
-3- Import the ExcelParser.Models and OfficeOpenXml namespaces in your code.
-4- Create an instance of the ExcelParser class.
-5- Call the ImportExcelToDomainModelList method, providing the path to the Excel file and an output parameter for the updated file path.
-6- Check the returned DomainModelResultList<T> object for errors and imported domain models.
+1. Install the Excel Parser library using NuGet (see Installation section).
+2. Add a reference to the Excel Parser library in your project.
+3. Import the ExcelParser.Models and OfficeOpenXml namespaces in your code.
+4. Create an instance of the ExcelParser class.
+5. Call the ImportExcelToDomainModelList method, providing the path to the Excel file and an output parameter for the updated file path.
+6. Check the returned DomainModelResultList<T> object for errors and imported domain models.
 
 Example:
 
-
+```
 using ExcelParser.Models;
 using OfficeOpenXml;
 using System;
@@ -80,7 +80,7 @@ namespace YourNamespace
         // Make sure to provide appropriate data annotations or validations if needed
     }
 }
-
+```
 
 ## License
 The Excel Parser library is licensed under the MIT License.
